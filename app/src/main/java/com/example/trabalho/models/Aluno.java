@@ -9,6 +9,14 @@ public class Aluno {
     private String email;
     private String telefone;
 
+    public Aluno(int cursoId, String nomeAluno, String cpf, String email, String telefone) {
+        this.cursoId = cursoId;
+        this.nomeAluno = nomeAluno;
+        this.cpf = cpf;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
     public Aluno(){}
 
     public int getAlunoId() {

@@ -136,7 +136,7 @@ public class DBHelper extends SQLiteOpenHelper {
     /**
      * INSERE ALUNO
      */
-    public void inserirCurso(Aluno a){
+    public void inserirAluno(Aluno a){
         db=this.getWritableDatabase();
         ContentValues values=new ContentValues();
         values.put("cursoId",a.getCursoId());

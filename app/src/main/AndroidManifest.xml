@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalho">
+        <activity android:name=".ListarCursos"></activity>
+        <activity android:name=".EditCurso" />
+        <activity android:name=".EditAluno" />
+        <activity android:name=".ListarAlunos" />
+        <activity android:name=".RegistrarAluno" />
+        <activity android:name=".RegistrarCurso" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
