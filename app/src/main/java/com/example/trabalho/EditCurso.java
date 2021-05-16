@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.trabalho.dataBase.DBHelper;
+
 public class EditCurso extends AppCompatActivity {
 
+    private DBHelper dbHelper = new DBHelper(this);
     private EditText edtNomeDoCurso;
     private EditText edtHoras;
 

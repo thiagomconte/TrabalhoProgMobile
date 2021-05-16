@@ -7,8 +7,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.trabalho.dataBase.DBHelper;
+
 public class EditAluno extends AppCompatActivity {
 
+    private DBHelper dbHelper = new DBHelper(this);
     private EditText edtNome;
     private Spinner cursoSpinner;
     private EditText edtCPF;
